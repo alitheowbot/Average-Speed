@@ -92,7 +92,13 @@ int main() {
         }
     }
     for (Log x: distances) {
-        cout << x.hour_ << "::" << x.min_ << "::" << x.sec_ << " " << x.km_ << " km" << endl;
+        cout 
+        << setfill('0') << setw(2) << x.hour_ 
+        << "::" 
+        << setfill('0') << setw(2) << x.min_ 
+        << "::" 
+        << setfill('0') << setw(2) << x.sec_ 
+        << " " << x.km_ << " km" << endl;
     }
 
     
