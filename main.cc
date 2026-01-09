@@ -7,7 +7,6 @@
 
 // todo: 
 // fix colons (works as long as format is STRICTLY followed, no errors/exceptions are thrown) (WIEGAND WOULD BE DISAPPOINTED.)
-// output shows only "1" rather than "01"
 
 #include <iostream>
 #include <sstream>
@@ -103,4 +102,5 @@ int main() {
 
     
     
+
 }
